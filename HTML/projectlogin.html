@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="projectlogin.css">
+</head>
+<body>
+    <div class="center">
+     <h1>Login</h1>
+     <form method="'post">
+     <div class="txt_field">
+        <input type="text" required="" placeholder="Username">
+        <span></span>
+      
+     </div>
+     <div class="txt_field">
+    <input type="password" required="" placeholder="Password">
+    <span></span>
+     </div>
+     <div class="pass"></div>
+     <button type="submit" id="Login" onclick="f1()">Login</button>
+     <p>
+        <script>
+            function f1()
+            {
+                var a = document.getElementById("Login").value;
+
+                    window.location.assign("projectexplore.html");
+            }
+        </script>
+     </p>
+     <div class="signup_link">
+        Not a member? <a href="projectsignup.html">Signup</a>
+     </div>
+     </form>
+    </div>
+</body>
+</html>
